@@ -99,7 +99,6 @@ public class App {
                     spaces++;
                 }
 
-
                 for (int j = 0; j <= columns; j++) {
                     int middleColumn = (columns / 2);
                     System.out.print((char) (start));
@@ -112,6 +111,7 @@ public class App {
                 }
 
                 System.out.println();
+
                 if (i < longRow) {
                     columns = columns + 2;
                 } else {
@@ -134,7 +134,6 @@ public class App {
         double sum = 0;
         double number = 1;
 
-
         while(number != 0){
             System.out.print("Mark "+ (inputCounter++) + ": ");
 
@@ -152,7 +151,6 @@ public class App {
                 inputCounter--;
 
             }
-
         }
 
         if (number == 0 && counter > 1){
@@ -201,8 +199,6 @@ public class App {
 
             }
         }
-
-
     }
 
     public static void main(String[] args){
